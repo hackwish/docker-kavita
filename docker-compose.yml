@@ -11,7 +11,7 @@ services:
       CONTAINER_TIMEZONE: America/Santiago
       TZ: America/Santiago
     volumes:
-        - ./kavita_config/kavita/config
+        - ./kavita_config:/kavita/config
     ports:
         - "5050:5000"
   kavita-email:
