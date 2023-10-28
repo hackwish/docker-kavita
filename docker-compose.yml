@@ -14,5 +14,14 @@ services:
         - ./kavita_config/kavita/config
     ports:
         - "5050:5000"
+  kavita-email:
+     container_name: kavita-email
+     image: jvmilazz0/kavitaemail:latest
+     ports:
+        - 5053:5003
+     volumes:
+        - ./kavita_email_config:/app/config
+     restart: unless-stopped
 volumes:
   kavita_config:
+  kavita_email_config:
