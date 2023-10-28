@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/hackwish/docker-kavita/compare/v1.0.0...v1.0.1) (2023-10-28)
+
+
+### Bug Fixes
+
+* **kavita:** Update external port to 5050 ([1994cbf](https://github.com/hackwish/docker-kavita/commit/1994cbf8db49211401a08faf79dbda23ab7bbbe6))
+
 # 1.0.0 (2023-10-28)
 
 
