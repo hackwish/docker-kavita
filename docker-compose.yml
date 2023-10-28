@@ -13,6 +13,6 @@ services:
     volumes:
         - ./kavita_config/kavita/config
     ports:
-        - "5000:5000"
+        - "5050:5000"
 volumes:
   kavita_config:
